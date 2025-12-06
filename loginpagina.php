@@ -6,23 +6,24 @@
     <title>Login - Templum</title>
     <link rel="stylesheet" href="loginpagina.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="midia/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
 
-    <div class="menu">
-        <a href="index.html"target="_blank">Início</a>
-        <a href="conheca.html"target="_blank">Conheça</a>
-        <a href="desenvolvedores.html"target="_blank">Desenvolvedores</a>
-        <a href="loginpagina.php"target="_blank">Download</a>
-        
-    </div class="img">
-    <div class="logo"><img src="imagens/LogoTexto1.png" alt="">
-    </div>
-    </div>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="conheca.html">Conheça</a>
+        <a href="desenvolvedores.html">Desenvolvedores</a>
+        <a href="loginpagina.php">Download</a>
+    </nav>
 
-    <div class="container">
-        <div class="login-box">
+    
+    <header>
+        <img src="midia/LogoTexto.png" alt="">
+    </header>
+
+    <main>
+        <section>
             <h2>Login para Download</h2>
 
 <?php
@@ -60,11 +61,11 @@
             <div class="register-link">
                 Não tem uma conta? <a href="novocadastro.php">Cadastre-se aqui</a>
             </div>
-        </div>
-    </div>
+        </section>
+</main>
 
-    <div id="rodape">
+    <footer>
         <p>&copy; 2025 Jogo Inc. Todos os direitos reservados.</p>
-    </div>
+</footer>
 </body>
 </html>
